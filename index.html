@@ -7,9 +7,11 @@
   </head>
   <body>
     <h1>Welcome to my website</h1>
-    <img src="./img/dobby.png">
+    <img src="./img/dobby.png" />
     <style>
-      h1,h2,h3 {
+      h1,
+      h2,
+      h3 {
         background-color: violet;
         text-align: center;
       }
@@ -17,54 +19,115 @@
         justify-content: center;
         width: 100%;
       }
-      img{
-        float:right;
-        width:267px;
+      img {
+        float: right;
+        width: 267px;
         height: 205px;
       }
-      table, th, td {
-        font-size: xx-large;
-  border: 1px solid black;
-  border-radius: 5px;
-  }
+      table,
+      th,
+      td {
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+      form{
+        padding: 1em;
+        
+      }
     </style>
     <p>
-      <strong>Lorem ipsum </strong>dolor sit amet consectetur, adipisicing elit.
-      Porro quae quia ad rerum?
-      Iusto ea, cum obcaecati vitae, natus alias accusamus quaerat id dolorum
-      odit aperiam optio debitis voluptates voluptate.
-    </p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Eligendi laboriosam quam sit autem sapiente debitis consectetur quidem,
-      esse dolorem? Quia natus officia nihil fuga eaque doloremque neque qui
-      ducimus quidem.
+      Hello, kind friends! Dobby welcomes you to<strong
+        >Dobby’s Magical Corner</strong
+      >, a place where socks, spells, and stories come to life! This is Dobby’s
+      very own website, filled with all the magical knowledge about house-elves,
+      Hogwarts, and the adventures Dobby loves so much. Here, you will find
+      Dobby’s favorite facts, tips to care for your socks, and magical surprises
+      waiting for you. Dobby hopes you enjoy exploring this space as much as
+      Dobby enjoys being a free elf! Please, click around – Dobby is always here
+      to help!
     </p>
     <h2>About me</h2>
     <p>
-      <b>Bharani</b> ipsum dolor sit amet consectetur adipisicing elit. Sunt nam
-      temporibus rerum, nostrum quaerat maiores deleniti eligendi blanditiis?
-      Eos, nostrum? Iure quam, a sint sit cum eos quos velit sapiente?
+      <b>&nbsp;DOBBY</b> Hello, kind friend! Dobby is a house-elf, and Dobby is
+      very happy to meet you! Dobby is loyal, hardworking, and always willing to
+      help. Once, Dobby served the Malfoy family, but now Dobby is a free elf!
+      Dobby loves freedom, socks, and helping kind wizards and witches in need.
+      If you ever require Dobby’s help, just call Dobby, and Dobby will be
+      there!
     </p>
     <h3>Education</h3>
     <table>
-    <tr>
+      <tr>
         <th>course</th>
         <th>year</th>
         <th>percentage</th>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>MCA</td>
         <td>2023-2025</td>
         <td>85%</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>BCom(ca)</td>
         <td>2020-2023</td>
         <td>75%</td>
-    </tr>
+      </tr>
     </table>
     <h3>projects</h3>
+    <ol>
+      <li>Dobby’s Magical Sock Organizer</li>
+      <li>Handguesture using teachablemachine</li>
+      <li>protecting harry</li>
+    </ol>
     <h3>hobbies</h3>
+    <ul>
+      <li>Collecting Socks</li>
+      <li>Helping Others</li>
+      <li>Knitting and Sewing</li>
+      <li>Exploring New Places</li>
+    </ul>
+    <h3>contact me</h3>
+    <a href="https://www.harrypotter.com/fact-file/characters-and-pets/dobby"
+      >&#x27B3; Encyclopedia</a
+    ><br />
+    <a href="https://en.wikipedia.org/wiki/Dobby">&#x27B3; Wikipedia</a>
+    <h3>registration form</h3>
+    <form>
+      <div>
+      <label for="first name">Firstname</label>
+      <input type="text box" name="first name" required>
+      <label for="last name">Last name</label>
+      <input type="text box" name="Last name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+      </div>
+      <div>
+        <label for="password">password</label>
+        <input type="password" name="password" required>
+      </div>
+      <div>
+        <label for="DOB">DOB</label>
+        <input type="date" name="DOB" required>
+      </div>
+      <div>
+        <label for="choose">choose the correct answer</label>
+        <select name="choose" required>choose
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+        </div>
+        <div>
+        <label for="checkbox">I agree all the terms and conditions</label>
+        <input type="checkbox" name="checkbox" required>
+      </div>
+      <div>
+        <input type="submit" value="submit">
+        <button>summit</button>
+      </div>
+    </form>
   </body>
 </html>
