@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        color: rgb(63, 115, 245);
+        text-align: center;
+        font-size:50px;
+      }
+
+      #container {
+        width: 500px;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #f9f9f9; /* Light background for contrast */
+      }
+
+      h5 {
+        text-align: center;
+        font-size: x-large;
+        margin: unset;
+      }
+
+      p {
+        color: dimgrey;
+      }
+
+      #phonenumber,
+      #password {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      #name {
+        width: 43%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        margin: 10px auto;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        width: 100px;
+      }
+
+      #para {
+        text-align: center;
+        justify-content: center;
+      }
+
+      button:hover {
+        background-color:darkgreen;
+        width: 50%;
+      }
+
+      #date_of_birth {
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: dimgrey;
+      }
+      select {
+        width: 31%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      #male,
+      #female,
+      #other {
+        width: 27%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: inline-block; /* Display options in the same line */
+        vertical-align: top; /* Align the elements vertically */
+      }
+    </style>
+    <h1>facebook</h1>
+    <div id="container">
+      <h5>Create a new account</h5>
+      <p id="para">it's quick and easy</p>
+      <hr />
+      <div>
+        <input type="text" id="name" placeholder="First name" />
+        <input type="text" id="name" placeholder="sur-name" />
+      </div>
+      <div>
+        <input
+          type="phonenumber"
+          id="phonenumber"
+          placeholder="mobile number"
+        />
+      </div>
+      <div>
+        <input type="password" id="password" placeholder="New password" />
+      </div>
+      <div>
+        <label
+          for="Date of Birth"
+          id="date_of_birth"
+          placeholder="Date of Birth"
+          >Date Of Birth</label
+        ><br />
+        <select name="1">
+          <option value="1">1</option>
+        </select>
+        <select name="2">
+          <option value="2">2</option>
+        </select>
+        <select name="3">
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div id="gender">
+        <label for="gender">Gender:</label><br />
+        <div id="male">
+          <input type="radio" class="male" name="gender" value="Male" />
+          <label for="male" class="male">Male</label>
+        </div>
+        <div id="female">
+          <input type="radio" class="female" name="gender" value="Female" />
+          <label for="female " class="female">Female</label>
+        </div>
+        <div id="other">
+          <input type="radio" class="other" name="gender" value="Other" />
+          <label for="other" class="other">Other</label>
+        </div>
+      </div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam debitis
+        eos repudiandae rerum aliquam minus,
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
+        veritatis laudantium tempora recusandae,
+      </p>
+      <button>sign up</button>
+    </div>
+  </body>
+</html>
