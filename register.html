@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register form</title>
+  </head>
+  <body>
+    <h3>Employee details</h3>
+    <h1>Registration form</h1>
+    <form>
+      <div class="container">
+        <div>
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" placeholder="Enter your first-name" />
+        </div>
+        <div>
+          <label for="second-name">Second Name</label>
+          <input type="text" name="second-name" placeholder="Enter your second-name" />
+        </div>
+        <div>
+          <label for="Father's name">Father's name</label>
+          <input
+            type="text"
+            name="Father's name"
+            placeholder="Enter  your's Father's name"
+          />
+        </div>
+        <div>
+          <label for="DOB">DOB</label>
+          <input type="date" name="date_of_birth" />
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <label for="Age">Age</label>
+          <input type="text" name="Age" placeholder="Enter your age" />
+        </div>
+        <div>
+          <label for="Door No">Door No</label>
+          <input type="text" name="Door No" placeholder="Enter your door no" />
+        </div>
+        <div>
+          <label for="Street No">Street No</label>
+          <input
+            type="text"
+            name="Street no"
+            placeholder="Enter  your Street No"
+          />
+        </div>
+        <div>
+          <label for="city">city</label>
+          <input
+          type="text"
+          name="City"
+          placeholder="Enter  your city"
+        />
+        </div>
+      </div>
+      <div class="container">
+        <div>
+            <label for="district">District:</label>
+            <input type="text"  name="district" placeholder="Enter your District">
+        </div>
+        <div>
+            <label for="state">State:</label>
+            <input type="text" name="state" placeholder="Enter your State">
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <input type="text" name="country" placeholder="Enter your Country">
+        </div>
+      <div>
+        <label for="postal-code">Postal Code:</label>
+        <input type="text" name="postal-code" placeholder="Enter your postal code (e.g.: 631...)">
+    </div>
+    </div>
+    <div class="container">
+    <div>
+        <label for="qualification">Educational Qualification:</label>
+        <input type="text"  name="qualification" placeholder="Enter your Educational qualification">
+    </div>
+    <div>
+        <label for="email">E-mail ID:</label>
+        <input type="email" name="email" placeholder="Enter your mail id (e.g.: xxx@gmail.com)">
+    </div>
+    <div>
+        <label for="religion">Religion:</label>
+        <select  name="religion">
+            <option value="">Select the Religion</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Christian">Christian</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div>
+        <label for="gender">Gender:</label>
+        <div id="gender" >
+            <input type="radio" class="gender" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" class="gender" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+    </div>
+    </div>
+    <div id="threerow">
+        <div>
+            <button id="clear">clear</button>
+        </div>
+        <div>
+            <label for="terms"><input type="checkbox" class="gender" name="terms">I agree to the terms and conditions</label>
+        </div>
+        <div>
+            <button id="summit">Summit</button>
+        </div>
+    </div>
+    </form>
+  </body>
+</html>
