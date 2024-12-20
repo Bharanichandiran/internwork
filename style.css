@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+    font-size: 1em;
+}
 #form {
   margin: 0 auto;
   width: 75%;
