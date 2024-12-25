@@ -42,7 +42,7 @@
                     <h3 class="text-2xl font-semibold mb-4">Batch 1</h3>
                     <p class="text-lg mb-2">Month: January</p>
                     <p class="text-lg mb-4">Timing: 9:00 AM - 11:00 AM</p>
-                    <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+                    <a href="#apply" onclick="applyNow('batch')"  class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
                     <h3 class="text-2xl font-semibold mb-4">Batch 2</h3>
                     <p class="text-lg mb-2">Month: February</p>
                     <p class="text-lg mb-4">Timing: 11:00 AM - 1:00 PM</p>
-                    <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+                    <a href="#apply" onclick="applyNow('batch')" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
                 </div>
             </div>
 
@@ -62,11 +62,15 @@
                     <h3 class="text-2xl font-semibold mb-4">Batch 3</h3>
                     <p class="text-lg mb-2">Month: March</p>
                     <p class="text-lg mb-4">Timing: 2:00 PM - 4:00 PM</p>
-                    <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+                    <a href="#apply" onclick="applyNow('batch')"  class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
                 </div>
             </div>
         </div>
     </section>
-
+    <script>
+        function applyNow(batch) {
+            alert(`The batch is full . Please try another batch or contact us for more information.`);
+        }
+    </script>
 </body>
 </html>

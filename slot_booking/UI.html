@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Languages Course</title>
+    <title>UI & UX Design Course</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
 
-    <!-- Programming Languages Course Section -->
+    <!-- UI & UX Design Course Section -->
     <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-500 text-white">
-        <h2 class="text-5xl font-extrabold tracking-wide text-white bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Programming Languages</h2>
-        <p class="mt-6 text-xl max-w-3xl mx-auto font-light">Master popular programming languages like Python, Java, C++, and more. Build a strong foundation for your coding career.</p>
+        <h2 class="text-5xl font-extrabold tracking-wide text-white bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">UI & UX Design</h2>
+        <p class="mt-6 text-xl max-w-3xl mx-auto font-light">Become a pro in designing intuitive and visually stunning user interfaces. Master UX principles, prototyping, and tools like Figma and Adobe XD.</p>
 
         <div class="mt-12">
             <h3 class="text-3xl font-semibold text-green-300 mb-4">What You'll Learn</h3>
             <ul class="list-disc list-inside text-left mx-auto max-w-2xl text-lg font-medium text-gray-200">
-                <li class="mb-3">Master syntax and concepts of Python, Java, C++, and other languages.</li>
-                <li class="mb-3">Learn problem-solving techniques and data structures.</li>
-                <li class="mb-3">Build hands-on projects to reinforce coding skills.</li>
-                <li class="mb-3">Prepare for coding interviews and technical assessments.</li>
+                <li class="mb-3">Understand user-centered design principles.</li>
+                <li class="mb-3">Create wireframes, prototypes, and mockups.</li>
+                <li class="mb-3">Use industry-standard tools like Figma and Adobe XD.</li>
+                <li class="mb-3">Conduct user research and usability testing.</li>
             </ul>
         </div>
 
         <div class="mt-12">
             <h3 class="text-3xl font-semibold text-green-300 mb-4">Course Fees</h3>
-            <p class="text-lg text-gray-200">The total course fee is <span class="text-3xl font-bold text-yellow-400">RS 12000</span>. Early bird discount available.</p>
+            <p class="text-lg text-gray-200">The total course fee is <span class="text-3xl font-bold text-yellow-400">RS 20000</span>. Avail a 10% early bird discount if you enroll now!</p>
         </div>
 
         <div class="mt-12">
@@ -40,9 +40,9 @@
             <div class="w-72 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-lg overflow-hidden">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-4">Batch 1</h3>
-                    <p class="text-lg mb-2">Month: January</p>
+                    <p class="text-lg mb-2">Month: July</p>
                     <p class="text-lg mb-4">Timing: 9:00 AM - 11:00 AM</p>
-                    <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+                    <a href="#apply" onclick="applyNow('batch')" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
                 </div>
             </div>
 
@@ -50,9 +50,9 @@
             <div class="w-72 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-lg overflow-hidden">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-4">Batch 2</h3>
-                    <p class="text-lg mb-2">Month: February</p>
-                    <p class="text-lg mb-4">Timing: 11:00 AM - 1:00 PM</p>
-                    <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+                    <p class="text-lg mb-2">Month: August</p>
+                    <p class="text-lg mb-4">Timing: 2:00 PM - 4:00 PM</p>
+                    <a href="#apply" onclick="applyNow('batch')"  class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
                 </div>
             </div>
 
@@ -60,13 +60,17 @@
             <div class="w-72 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-lg overflow-hidden">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold mb-4">Batch 3</h3>
-                    <p class="text-lg mb-2">Month: March</p>
-                    <p class="text-lg mb-4">Timing: 2:00 PM - 4:00 PM</p>
-                    <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+                    <p class="text-lg mb-2">Month: September</p>
+                    <p class="text-lg mb-4">Timing: 5:00 PM - 7:00 PM</p>
+                    <a href="#apply"  onclick="applyNow('batch')" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
                 </div>
             </div>
         </div>
     </section>
-
+    <script>
+        function applyNow(batch) {
+            alert(`The batch is full . Please try another batch or contact us for more information.`);
+        }
+    </script>
 </body>
 </html>
