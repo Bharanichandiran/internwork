@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <section id="course" class="text-center py-20 bg-gradient-to-r from-blue-500 to-green-500 text-white">
+        <h2 class="text-5xl font-extrabold tracking-wide text-white bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Full Stack</h2>
+        <p class="mt-6 text-xl max-w-3xl mx-auto font-light">Unlock your potential by mastering web development techniques in this comprehensive, hands-on course. Start building responsive, professional websites from scratch!</p>
+        
+        <div class="mt-12">
+            <!-- Benefits of the course -->
+            <h3 class="text-3xl font-semibold text-green-300 mb-4">What You'll Learn</h3>
+            <ul class="list-disc list-inside text-left mx-auto max-w-2xl text-lg font-medium text-gray-200">
+                <li class="mb-3">Master the core web technologies: HTML, CSS, and JavaScript.</li>
+                <li class="mb-3">Build modern, responsive websites for desktop and mobile devices.</li>
+                <li class="mb-3">Learn essential tools and libraries like Git, jQuery, and Bootstrap.</li>
+                <li class="mb-3">Understand front-end frameworks and how to integrate them into your projects.</li>
+                <li class="mb-3">Get certified and boost your career with real-world projects.</li>
+            </ul>
+        </div>
+    
+        <div class="mt-12">
+            <!-- Course Fees -->
+            <h3 class="text-3xl font-semibold text-green-300 mb-4">Course Fees</h3>
+            <p class="text-lg text-gray-200">The total course fee is <span class="text-3xl font-bold text-yellow-400">RS 10000</span>. Early bird discount of 20% if you enroll by the end of this month!</p>
+        </div>
+    
+        <div class="mt-12">
+            <!-- Call to action button -->
+            <a href="#enroll" class="mt-6 inline-block bg-yellow-500 text-blue-800 font-semibold py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 transition duration-300">Enroll Now</a>
+        </div>
+    </section>
+<section id="enroll" class="text-center py-20 bg-gray-100">
+    <div class="flex justify-center space-x-8 py-8">
+        <!-- Batch 1 Card -->
+        <div class="w-72 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-lg overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-4">Batch 1</h3>
+            <p class="text-lg mb-2">Month: January</p>
+            <p class="text-lg mb-4">Timing: 9:00 AM - 11:00 AM</p>
+            <a href="#batch1" onclick="applyNow('batch')" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+          </div>
+        </div>
+      
+        <!-- Batch 2 Card -->
+        <div class="w-72 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-lg overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-4">Batch 2</h3>
+            <p class="text-lg mb-2">Month: February</p>
+            <p class="text-lg mb-4">Timing: 11:00 AM - 1:00 PM</p>
+            <a href="#batch2" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+          </div>
+        </div>
+      
+        <!-- Batch 3 Card -->
+        <div class="w-72 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-lg shadow-lg overflow-hidden">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-4">Batch 3</h3>
+            <p class="text-lg mb-2">Month: March</p>
+            <p class="text-lg mb-4">Timing: 2:00 PM - 4:00 PM</p>
+            <a href="#batch3" class="mt-4 inline-block bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Apply Now</a>
+          </div>
+        </div>
+      </div>
+</section>
+    <script>
+        function applyNow(batch) {
+            alert(`The batch is full . Please try another batch or contact us for more information.`);
+        }
+    </script>
+
+</body>
+</html>
