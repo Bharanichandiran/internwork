@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+</head>
+<body>
+    <h1 >Guess the Number</h1>
+    <input id="num">
+    <div>
+    <button onclick="clue()">clue</button>
+    <button onclick="check()">check</button>
+    <p id="result"></p>
+    <script>
+        var num=document.getElementById("num");
+        var random=Math.random()*10;
+        var a=Math.floor(random);
+        function clue(){
+            if(a<=5){
+                document.getElementById("result").innerHTML="your number is lower than 5";
+            }
+            else{
+                document.getElementById("result").innerHTML="your number is higher than 5";
+            }
+        }
+function check(){
+    var num1=Number(num.value);
+    var result=document.getElementById("result");
+    if(num1==a){
+result.textContent="you won the game";
+    }
+    else{
+        
+        result.textContent="try again";
+    }
+}
+    </script>
+</body>
+</html>
